@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practise</title>
+
+    <style>
+        label{
+            display:block;
+            margin-bottom: 10px;
+        }
+        input[type='reset']{
+            display: block;
+            margin-bottom : 20px ;
+            margin-top : 20px;
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <h1>Form practise</h1>
+        </header>
+        <main>
+            <form >
+                <label for="name">Your name : 
+                    <input type="text" id="name"
+                    placeholder="Enter your name">
+                </label> 
+                <label for="email">Your email : 
+                    <input type="email" id="email"
+                    placeholder="Enter your email">
+                </label>
+                <label for="password">Your password : 
+                    <input type="password" id="password"
+                    placeholder="Enter your password">  
+                </label>    
+           
+
+            <fieldset>
+                <legend >
+                    Pick Your favourite pitha
+                </legend>
+                <label for="cithoy">
+                    <input type="radio" name="pitha" id="cithoy">
+                    Cithoy
+                </label>
+                <label for="cithoy">
+                    <input type="radio" name="pitha" id="vapa">
+                    Vapa
+                </label>
+                <label for="cithoy">
+                    <input type="radio" name="pitha" id="puri">
+                    Puri
+                </label>
+            </fieldset> 
+            <fieldset>
+                <legend>Pick your vorta</legend>
+                <label for="sorisha">
+                    <input type="checkbox" name="vorta" id="sorisha">
+                    Sorisha
+                </label>
+                <label for="shutki">
+                    <input type="checkbox" name="vorta" id="shutki">
+                    Shutki
+                </label>
+                <label for="begun">
+                    <input type="checkbox" name="vorta" id="begun">
+                    Begun
+                </label>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+
+             </form>
+        </main>
+</body>
+</html>
